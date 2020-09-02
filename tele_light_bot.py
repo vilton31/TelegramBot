@@ -3,8 +3,8 @@
 
 from telegram.ext import Updater,CommandHandler, MessageHandler, Filters
 import requests 
-x = "Vil31"
-y = "aio_WnLd003D13q2P1sAQMZz8AVqo8Ly"
+x = "Vil31" #ADAFRUIT_IO_USERNAME
+y = "aio_WnLd003D13q2P1sAQMZz8AVqo8Ly" #ADAFRUIT_IO_KEY
 
 from Adafruit_IO import Client, Feed
 aio = Client(x,y)
