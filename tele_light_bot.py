@@ -31,7 +31,7 @@ def light_off(bot,update):
 
 a = Updater('1212708416:AAE4KlunY3DDDJVhIvLKo8kxx0h4pA_R0mE')
 dp = a.dispatcher
-dp.add_handler(CommandHandler('lighton',light_on))
+dp.add_handler(CommandHandler('lighton',light_on)) 
 dp.add_handler(CommandHandler('lightoff',light_off))
 dp.add_handler(CommandHandler('start', start))
 a.start_polling()
