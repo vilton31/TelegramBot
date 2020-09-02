@@ -1,6 +1,3 @@
 requests
 Updater
-CommandHandler
-MessageHandler
-Filters
 Data
