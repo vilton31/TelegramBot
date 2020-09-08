@@ -1,10 +1,4 @@
 adafruit-io
 python-telegram-bot
-Updater
-CommandHandler
-MessageHandler
-Filters
 requests
-Cliet
-Feed
-Data
+
