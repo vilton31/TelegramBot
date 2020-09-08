@@ -21,7 +21,7 @@ def light_on(bot,update):
     bot.sendPhoto(chat_id=update.effective_chat.id, photo='https://images.squarespace-cdn.com/content/5784e04246c3c41c72bf6305/1468526448115-KB10QTHCWSJ3IHHK7HVP/640px-Bombeta_de_Llum.jpg?content-type=image%2Fjpeg')
 
 def light_off(bot,update):
-    from Adafruit_IO import Data
+    from Adafruit_IO import Data 
     # Sending a value to a feed
     value = Data(value=0)
     value_send = aio.create_data('vbot',value)
