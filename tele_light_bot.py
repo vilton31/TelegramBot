@@ -28,7 +28,7 @@ def light_off(bot,update):
     bot.send_message(chat_id = update.effective_chat.id,text="Turning Light Off")
     bot.sendPhoto(chat_id=update.effective_chat.id, photo='https://ak.picdn.net/shutterstock/videos/16051507/thumb/1.jpg')
 
-a = Updater('1212708416:AAE4KlunY3DDDJVhIvLKo8kxx0h4pA_R0mE')
+a = Updater('1212708416:AAE4KlunY3DDDJVhIvLKo8kxx0h4pA_R0mE') #bot token
 dp = a.dispatcher 
 dp.add_handler(CommandHandler('lighton',light_on)) 
 dp.add_handler(CommandHandler('lightoff',light_off))
